@@ -4,16 +4,13 @@ Projects, samples and templates created to learn game development in [Godot][god
 
 ## :beginner: Tutorials and Courses
 
-:heavy_check_mark: Completed  
-:o: Incomplete
-
 ### Online Courses
 
-1. :construction: TODO
+1. :file_folder: [Zenva](online-courses/Zenva-Godot-Courses/)
 
 ### YouTube Tutorials
 
-1. :construction: TODO
+- :file_folder: [Brackeys](YouTube-Godot-Courses/source/brackyes/)
 
 ## :page_with_curl: License
 
