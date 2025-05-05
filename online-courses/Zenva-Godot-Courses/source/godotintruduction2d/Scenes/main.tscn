@@ -1,8 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://d4fph6dfsdnns"]
+[gd_scene load_steps=7 format=3 uid="uid://d4fph6dfsdnns"]
 
 [ext_resource type="Script" uid="uid://vwqdfem5g83s" path="res://Scripts/intro_to_scripting.gd" id="1_8gbba"]
 [ext_resource type="Texture2D" uid="uid://bqj0eg5knu7wf" path="res://Sprites/Player.png" id="1_jjgbg"]
 [ext_resource type="PackedScene" uid="uid://ba22yfis3qrki" path="res://Prefabs/coin.tscn" id="2_bo1nx"]
+[ext_resource type="Texture2D" uid="uid://nixgnpftrgoi" path="res://icon.svg" id="4_kry3j"]
+[ext_resource type="Script" uid="uid://clol1tqk5p5cv" path="res://Scripts/icon_turning.gd" id="5_21xkr"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bo1nx"]
 size = Vector2(66, 92)
@@ -34,3 +36,8 @@ shape = SubResource("RectangleShape2D_bo1nx")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 anchor_mode = 0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(550, 300)
+texture = ExtResource("4_kry3j")
+script = ExtResource("5_21xkr")

@@ -16,7 +16,7 @@ Projects, samples and templates created to learn game development in [Godot][god
 
 The source code is free -- see the [LICENSE](LICENSE) file for details
 
-All game assets used in these tutorials (art, sound, music) was provided by the tutorial, and probably have their own end user license agreements.
+All game assets used in these tutorials (art, models, sound, music) was provided by the tutorial, and probably have their own end user license agreements.
 Unless stated otherwise.
 
 [godot]: https://godotengine.org
