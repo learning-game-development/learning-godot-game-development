@@ -10,7 +10,7 @@ Projects, samples and templates created to learn game development in [Godot][god
 
 ### YouTube Tutorials
 
-- :file_folder: [Brackeys](YouTube-Godot-Courses/source/brackyes/)
+- :file_folder: [Brackeys](YouTube-Godot-Courses/source/Brackyes-Tutorials/)
 
 ## :page_with_curl: License
 

@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://bxn1ettm0va2n"]
+
+[ext_resource type="Material" uid="uid://cnlnoa11jp0y" path="res://Materials/red_plastic.tres" id="1_jjgbg"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_bo1nx"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_jjgbg"]
+
+[node name="Main" type="Node3D"]
+
+[node name="Cube" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_bo1nx")
+surface_material_override/0 = ExtResource("1_jjgbg")
+
+[node name="Floor" type="MeshInstance3D" parent="."]
+transform = Transform3D(5.18645, 0, 0, 0, -2.61585e-07, 0.997393, 0, -5.98436, -4.35974e-08, 0, -0.5, 0)
+mesh = SubResource("QuadMesh_jjgbg")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.707107, 0.5, -0.5, 0, 0.707107, 0.707107, 0.707107, -0.5, 0.5, 0, 3.84303, 0)
+shadow_enabled = true
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.965926, -0.183013, 0.183013, 0, 0.707107, 0.707107, -0.258819, -0.683013, 0.683013, 2, 2.66248, 4.00701)

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ba22yfis3qrki"]
+
+[ext_resource type="Texture2D" uid="uid://oc4mkklx4ana" path="res://Sprites/Coin.png" id="1_n56xt"]
+
+[node name="Coin" type="Sprite2D"]
+editor_description = "Collectable coin"
+texture = ExtResource("1_n56xt")
