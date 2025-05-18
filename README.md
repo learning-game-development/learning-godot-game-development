@@ -4,9 +4,19 @@ Projects, samples and templates created to learn game development in [Godot][god
 
 ## :beginner: Tutorials and Courses
 
+### GDQuest Tutorials and Courses
+
+- :o: [Learn GDScript From Zero](https://gdquest.github.io/learn-gdscript/)
+
+#### Godot Engine 4.4 documentation
+
+1. :o: [Step by step](https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html)
+2. :o: [Your first 2D game](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html)
+3. :o: [Your first 3D game](https://docs.godotengine.org/en/stable/getting_started/first_3d_game/index.html)
+
 ### Online Courses
 
-1. :file_folder: [Zenva](online-courses/Zenva-Godot-Courses/)
+- :file_folder: [Zenva](online-courses/Zenva-Godot-Courses/)
 
 ### YouTube Tutorials
 
