@@ -5,9 +5,10 @@
 
 ## Zenva Academy Online Courses
 
-1. :o: [Godot 101 – Game Engine Foundations [2020]](https://academy.zenva.com/course/godot-101-game-engine-foundations/)
-2. :construction: [Godot 101 – Game Engine Foundations [2023]](https://academy.zenva.com/course/godot-4-101-game-engine-foundations-2023/)
+1. :o: [Godot 101 – Game Engine Foundations](https://academy.zenva.com/course/godot-101-game-engine-foundations/) [2020]
+2. :heavy_check_mark: [Godot 101 – Game Engine Foundations](https://academy.zenva.com/course/godot-4-101-game-engine-foundations-2023/) [2023]
 3. :heavy_check_mark: [Godot 101 – Game Engine Foundations](https://academy.zenva.com/course/godot-4-101-game-engine-foundations/)
+4. :construction: [Godot 3 Game Development for Beginners](/) [2020]
 
 ## :page_with_curl: License
 
