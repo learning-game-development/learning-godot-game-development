@@ -1,7 +1,8 @@
-[gd_scene load_steps=8 format=3 uid="uid://d4fph6dfsdnns"]
+[gd_scene load_steps=9 format=3 uid="uid://d4fph6dfsdnns"]
 
 [ext_resource type="Script" uid="uid://vwqdfem5g83s" path="res://Scripts/intro_to_scripting.gd" id="1_8gbba"]
 [ext_resource type="Texture2D" uid="uid://bqj0eg5knu7wf" path="res://Sprites/Player.png" id="1_jjgbg"]
+[ext_resource type="PackedScene" uid="uid://c8oxska1raylo" path="res://Prefabs/tile.tscn" id="2_6bp64"]
 [ext_resource type="PackedScene" uid="uid://cpdjrqvlo5xmo" path="res://Prefabs/player.tscn" id="2_21xkr"]
 [ext_resource type="PackedScene" uid="uid://ba22yfis3qrki" path="res://Prefabs/coin.tscn" id="2_bo1nx"]
 [ext_resource type="Texture2D" uid="uid://nixgnpftrgoi" path="res://icon.svg" id="4_kry3j"]
@@ -13,10 +14,33 @@ size = Vector2(66, 92)
 [node name="Main" type="Node2D"]
 
 [node name="IntroToGodot1" type="Node2D" parent="."]
-visible = false
 
 [node name="Player" parent="IntroToGodot1" instance=ExtResource("2_21xkr")]
-position = Vector2(300, 300)
+position = Vector2(256, 264)
+
+[node name="Tile" parent="IntroToGodot1" instance=ExtResource("2_6bp64")]
+position = Vector2(192, 384)
+
+[node name="Tile2" parent="IntroToGodot1" instance=ExtResource("2_6bp64")]
+position = Vector2(256, 384)
+
+[node name="Tile3" parent="IntroToGodot1" instance=ExtResource("2_6bp64")]
+position = Vector2(320, 384)
+
+[node name="Tile4" parent="IntroToGodot1" instance=ExtResource("2_6bp64")]
+position = Vector2(512, 384)
+
+[node name="Tile5" parent="IntroToGodot1" instance=ExtResource("2_6bp64")]
+position = Vector2(576, 384)
+
+[node name="Tile6" parent="IntroToGodot1" instance=ExtResource("2_6bp64")]
+position = Vector2(640, 384)
+
+[node name="Tile7" parent="IntroToGodot1" instance=ExtResource("2_6bp64")]
+position = Vector2(576, 192)
+
+[node name="Tile8" parent="IntroToGodot1" instance=ExtResource("2_6bp64")]
+position = Vector2(640, 192)
 
 [node name="IntroToGodot2en3" type="Node2D" parent="."]
 visible = false
@@ -46,6 +70,7 @@ shape = SubResource("RectangleShape2D_bo1nx")
 disabled = true
 
 [node name="Tutorial" type="Node2D" parent="."]
+visible = false
 
 [node name="Sprite2D" type="Sprite2D" parent="Tutorial"]
 position = Vector2(550, 300)
