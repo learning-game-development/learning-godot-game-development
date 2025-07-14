@@ -20,8 +20,9 @@ Projects, samples and templates created to learn game development in [Godot][god
 ### Online Courses
 
 - :file_folder: [Zenva](online-courses/Zenva-Godot-Courses/)
+- :file_folder: [Udemy](online-courses/Udemy-Godot-Courses/)
 
-### YouTube Tutorials
+### YouTube Courses and Tutorials
 
 - :file_folder: [Brackeys](YouTube-Godot-Courses/source/Brackyes-Tutorials/)
 

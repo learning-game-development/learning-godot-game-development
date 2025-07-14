@@ -5,7 +5,9 @@
 
 ## :beginner: Brackyes YouTube Tutorials
 
-1. :o: [How to make 3D Games in Godot](https://youtu.be/ke5KpqcoiIU?si=feZpEIETBXH_WCuT) :link:
+1. :heavy_check_mark: [How to make 3D Games in Godot](https://youtu.be/ke5KpqcoiIU?si=feZpEIETBXH_WCuT) :link:
+2. :heavy_check_mark: [How to program in Godot - GDScript Tutorial](https://youtu.be/e1zJS31tr88?si=0KGu0jNvhgDGtmN1) :link:
+3. :heavy_check_mark: [Make BEAUTIFUL Games - Lighting in Godot](https://youtu.be/aRdiiWpA0AA?si=g_xOn_P3KxzFbTUa) :link:
 
 ## :page_with_curl: License
 
