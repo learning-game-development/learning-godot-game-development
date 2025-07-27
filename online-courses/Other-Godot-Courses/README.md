@@ -6,7 +6,7 @@
 ## :beginner: Tutorials and Courses
 
 1. :heavy_check_mark: [Creating your first script](https://docs.godotengine.org/en/stable/getting_started/step_by_step/scripting_first_script.html) -- C#
-2. :o: [Your first 2D game](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html) -- C#
+2. :heavy_check_mark: [Your first 2D game](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html) -- C#
 3. :o: [Your first 3D game](https://docs.godotengine.org/en/stable/getting_started/first_3d_game/index.html) -- C#
 
 ## :page_with_curl: License
